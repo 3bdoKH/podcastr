@@ -1,0 +1,20 @@
+.recent {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 5rem;
+    gap: 2rem;
+}
+.recent .box-container {
+    display: flex;
+    gap: 2rem;
+}
+@media (width < 1050px){
+    .recent .box-container {
+        flex-direction: column;
+    }
+}
+@media (width < 768px){
+    .recent {
+        padding: 2rem;
+    }
+}
